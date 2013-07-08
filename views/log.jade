@@ -1,0 +1,7 @@
+extends layout
+
+block head
+  title changelog: #{since}..#{until}
+
+block content
+  pre #{log}
