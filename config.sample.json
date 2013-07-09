@@ -1,6 +1,12 @@
 {
-  "owner": "mozilla",
-  "name": "openbadges",
-  "dir": "./openbadges"
+  "projectA": {
+    "githubUrl": "https://github.com/owner/projectA",
+    "localPath": "path/to/projectA/checkout"
+  },
+  "projectB": {
+    "githubUrl": "https://github.com/owner/projectB",
+    "localPath": "path/to/projectA/checkout",
+    "tagPattern": "foo*"
+  }
 }
 
